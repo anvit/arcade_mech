@@ -1,1 +1,1 @@
-Arcade style controller for the PC which uses mechanical key switches. Check out the build log - imgur.com/a/7h5vq
+Arcade style controller for the PC which uses mechanical key switches. Check out the build log - http://imgur.com/a/7h5vq
