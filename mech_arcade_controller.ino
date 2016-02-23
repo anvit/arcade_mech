@@ -13,13 +13,20 @@ Bounce button7 = Bounce(21, 5);
 Bounce button8 = Bounce(22, 5);
 Bounce button9 = Bounce(23, 5);
 
+int btnGreen = 3;
+int btnBlue = 4;
+int btnRed = 9;
+int btnYellow = 5;
+int btnWhite = 10;
+int btnViolet = 6;
+
 void setup() {
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(9, OUTPUT);
-  pinMode(10, OUTPUT);
+  pinMode(btnGreen, OUTPUT);
+  pinMode(btnBlue, OUTPUT);
+  pinMode(btnYellow, OUTPUT);
+  pinMode(btnViolet, OUTPUT);
+  pinMode(btnRed, OUTPUT);
+  pinMode(btnWhite, OUTPUT);
   pinMode(14, INPUT_PULLUP);
   pinMode(15, INPUT_PULLUP);
   pinMode(16, INPUT_PULLUP);
@@ -30,12 +37,12 @@ void setup() {
   pinMode(21, INPUT_PULLUP);
   pinMode(22, INPUT_PULLUP);
   pinMode(23, INPUT_PULLUP);
-  digitalWrite(3, HIGH);
-  digitalWrite(4, HIGH);
-  digitalWrite(5, HIGH);
-  digitalWrite(6, HIGH);
-  digitalWrite(9, HIGH);
-  digitalWrite(10, HIGH);
+  digitalWrite(btnGreen, HIGH);
+  digitalWrite(btnBlue, HIGH);
+  digitalWrite(btnYellow, HIGH);
+  digitalWrite(btnViolet, HIGH);
+  digitalWrite(btnRed, HIGH);
+  digitalWrite(btnWhite, HIGH);
 }
 
 void loop() {
